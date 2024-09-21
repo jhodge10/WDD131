@@ -1,0 +1,33 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+
+}
+h2 {
+    color: #006EB6;
+
+}
+.dark h2 {
+    color: #009aff;
+}
+header, footer {
+    text-align: center;
+}
+header {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+footer {
+    line-height: 1.5px;
+}
+:root {
+    --dark-background: #333;
+    --dark-text: #ffffff;
+}
+.dark body {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+}
