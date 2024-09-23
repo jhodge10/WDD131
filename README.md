@@ -1,3 +1,3 @@
 My WDD131 Webpage Link
 
-"https://jhodge10.github.io/WDD131/"
+"https://github.com/jhodge10/WDD131"
