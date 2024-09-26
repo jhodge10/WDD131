@@ -1,15 +1,33 @@
 // events.js
 let tasks = [];
 
+function taskTemplate(task) {
+    return `<li ${task.completed ? 'class="strike"' : ""}>
+   <p>${task.detail}</p>
+   <div>
+     <span data-function="delete">❎</span>
+     <span data-function="complete">✅</span>
+   </div>
+ </li>`;
+}
+
 function renderTasks(tasks) {
   // get the list element from the DOM
+  const listElement = document.querySelector('#todoList');
   // loop through the tasks array. transform (map) each task object into the appropriate HTML to represent a to-do.
+  const html = tasks.map(taskTemplate);
+  console.log(html);
+  listElement.innerHTML = html.join("");
 }
 
 function newTask() {
   // get the value entered into the #todo input
+  const task = document.querySelector('#todo').value;
   // add it to our arrays tasks
+  const newT = ({ detail: task, completed: false});
+  tasks.push(newT);
   // render out the list
+  renderTasks(tasks);
 }
 
 function removeTask(taskElement) {
@@ -49,4 +67,5 @@ function manageTasks(event) {
 }
 
 // Add your event listeners here
+document.querySelector('#submitTask').addEventListener('click', newTask);
 // We need to attach listeners to the submit button and the list. Listen for a click, call the 'newTask' function on submit and call the 'manageTasks' function if either of the icons are clicked in the list of tasks.
