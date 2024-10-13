@@ -42,6 +42,7 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 250px;
+  min-width: 400px;
 }
 h1,
 h2,
@@ -49,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
+  font-family: 'Roboto', Times, serif;
   color: var(--headline-color-on-white);
 }
 h2 {
