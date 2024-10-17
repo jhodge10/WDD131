@@ -1,0 +1,14 @@
+.headimg {
+    max-width: 100px;
+}
+body, header {
+    max-width: 300px;
+}
+.social {
+    max-width: 50px
+}
+img {
+    max-width: 250px;
+}
+
+
