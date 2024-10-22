@@ -1,0 +1,17 @@
+header {
+    background-color: #3E7F24;
+}
+
+footer {
+    background-color: #3E7F24;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #F4EBD9;
+    color: black;
+}
