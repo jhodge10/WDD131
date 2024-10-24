@@ -10,6 +10,19 @@ header {
     max-width: 100px;
 }
 
+h2, h1 {
+    background-color: #058ED9;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    background-color: #483D3F;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
 footer {
     background-color: #3E7F24;
 }
@@ -26,4 +39,29 @@ nav a:hover {
 
 .social-logo {
     max-width: 50px;
+}
+
+.comicconimg {
+    max-width: 350px;
+}
+
+.mandoimg, .reximg {
+    max-height: 200px;
+}
+
+.duelsimg, .duelingimg {
+    max-width: 200px;
+}
+
+.nerfimg {
+    max-width: 300px;
+    display: flex;
+}
+
+.familyimg, .vadersimg {
+    max-height: 200px;
+}
+
+.lightimg {
+    max-width: 330px;
 }
