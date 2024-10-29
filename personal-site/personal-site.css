@@ -11,6 +11,10 @@ header {
     max-width: 100px;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', Times, serif ;
+}
+
 h2, h1 {
     background-color: #058ED9;
     display: flex;
@@ -67,9 +71,26 @@ nav a:hover {
     max-width: 330px;
 }
 
+.signupForm {
+    background-color: #F4EBD9;
+}
+
+
 @media screen and (min-width: 500px) {
     body {
         max-width: 700px;
+    }
+
+    .lightimg, .nerfimg, .comicconimg {
+        max-width: 600px;
+    }
+
+    .duelingimg, .duelsimg {
+        max-width: 400px;
+    }
+
+    .familyimg, .mandoimg, .reximg, .vadersimg {
+        max-height: 400px;
     }
 
 }
