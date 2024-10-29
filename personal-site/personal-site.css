@@ -7,6 +7,21 @@ header {
     background-color: #3E7F24;
 }
 
+.head-bar {
+    display: flex;
+}
+
+.navigate {
+    display: flex;
+    align-self: center;
+    align-content: space-between;
+}
+
+.foot-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo {
     max-width: 100px;
 }
@@ -32,9 +47,8 @@ footer {
     background-color: #3E7F24;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
+a:active {
+    color: #483D3F;
 }
 
 nav a:hover {
