@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #3E7F24;
+    background-color: #F4EBD9;
 }
 
 .head-bar {
@@ -20,6 +20,7 @@ header {
 .foot-bar {
     display: flex;
     justify-content: space-around;
+    color: #483D3F;
 }
 
 .logo {
@@ -44,7 +45,7 @@ h3 {
 }
 
 footer {
-    background-color: #3E7F24;
+    background-color: #F4EBD9;
 }
 
 a:active {
@@ -89,6 +90,9 @@ nav a:hover {
     background-color: #F4EBD9;
 }
 
+.lightpara {
+    background-color: #3E7F24;
+}
 
 @media screen and (min-width: 500px) {
     body {
